@@ -1,6 +1,7 @@
 <p align="center">
 	<img align="center" width="200" height="200" src="/sqLava.png">
 </p>
+
 # sqLava
 
 A WebSQL / SQLite wrapper for web and cross platform mobile applications.
