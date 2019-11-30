@@ -3,9 +3,11 @@
 
 ## Installation
 
-Simple include sqLava.js in your head.
+Simple include sqlava.js in your head.
 
+```html
 <script src="sqlava.js"></script>
+````
 
 ## Getting started
 
@@ -42,23 +44,23 @@ sqLava.create({
 });
 ```
 
-To insert data, you simple provide an array representing each row you'd like to add.
+To insert data, you simple provide an array representing each row you'd like to add:
 
 ```javascript
 sqLava.insert({
 	table:'myTable',
 	"rows":[
-		  {
-     "column1": "FirstRow",
-     "column2": "SecondColumn"
-		  },
-		  {
-     "column1": "FirstColumn",
-     "column2": {
-      set:"date()",
-      func:true
-     }
-		  }
+		{
+		"column1": "FirstRow",
+		"column2": "SecondColumn"
+		},
+		{
+			"column1": "FirstColumn",
+			"column2": {
+				set:"date()",
+				func:true
+			}
+		}
 		]
 });
 ```
