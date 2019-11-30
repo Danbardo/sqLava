@@ -1,3 +1,5 @@
+<img align="left" width="100" height="100" src="/sqLava.png">
+
 # sqLava
  A WebSQL / SQLite wrapper for web and cross platform mobile applications.
 
